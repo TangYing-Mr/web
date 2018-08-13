@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="28px" viewBox="0 0 23 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>home_footer_icons_01</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-135.000000, -3982.000000)">
+            <g id="Group-13" transform="translate(0.000000, 3945.000000)">
+                <g id="home_footer_icons_01" transform="translate(133.000000, 37.000000)">
+                    <rect id="Rectangle-18" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="28" height="28"></rect>
+                    <g id="Group" transform="translate(3.000000, 1.000000)" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M0.159344243,3.3469862 L0.211275655,16.214964 L0.22304844,16.3542298 C0.241628831,16.438893 0.637437999,18.483143 2.61589051,20.452565 C4.1371405,21.9706143 7.8675209,23.9534788 9.45950129,24.7998952 C9.70982131,24.9333339 9.89643714,25.0315013 10.0032041,25.0919926 L10.381401,25.2994884 L10.8452549,25.061007 C11.775992,24.5991207 16.5083707,22.2070917 18.2673873,20.4554632 C20.2478071,18.4836055 20.6435851,16.4398179 20.6602606,16.3552472 L20.7249016,3.34800364 L10.4421073,0.0423455716 L0.159344243,3.3469862 Z" id="正品(1)"></path>
+                        <path d="M5.27522459,6.66677985 L15.0407166,6.66677985" id="Path-2"></path>
+                        <path d="M10.5357968,7.02415717 L10.5357968,16.3272746" id="Path-3"></path>
+                        <path d="M4.5880837,16.3298439 L16.3152956,16.3298439" id="Path-4"></path>
+                        <path d="M7.0795083,10.4228709 L7.0795083,16.1669538" id="Path-5"></path>
+                        <path d="M10.8746254,10.7724559 L14.8295914,10.7724559" id="Path-6"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

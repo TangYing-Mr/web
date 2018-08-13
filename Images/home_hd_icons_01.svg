@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="17px" viewBox="0 0 19 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>home_hd_icons_01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.00169139466 0.0124874791 0.00169139466 16.9999716 18.9752321 16.9999716 18.9752321 0.0124874791"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-915.000000, -1494.000000)">
+            <g id="Group-31" transform="translate(135.000000, 1280.000000)">
+                <g id="home_hd_icons_01" transform="translate(780.000000, 214.000000)">
+                    <g id="Group-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M18.2467938,0.0124874791 L0.730738872,0.0124874791 C0.327059347,0.0124874791 0,0.341759599 0,0.743629382 L0,13.385414 C0,13.789611 0.32925816,14.189182 0.730738872,14.189182 L8.38483531,14.189182 L9.39065134,15.5332604 L5.61320326,15.5332604 C5.20952374,15.5332604 4.88246439,15.8625042 4.88246439,16.266616 C4.88246439,16.670813 5.20952374,16.9999716 5.61320326,16.9999716 L14.0611558,16.9999716 C14.4648353,16.9999716 14.7917819,16.670813 14.7917819,16.266616 C14.7917819,15.8625042 14.4648353,15.4628481 14.0633546,15.4628481 L11.1677151,15.4628481 L10.1595875,14.1869399 L18.2444822,14.1869399 C18.6481899,14.1869399 18.9752211,13.7872838 18.9752211,13.3832003 L18.9752211,0.743629382 C18.9774199,0.341759599 18.6505015,0.0124874791 18.2467938,0.0124874791 Z M1.24035608,12.706606 L17.5905045,12.706606 L17.5905045,1.4315192 L1.24035608,1.4315192 L1.24035608,12.706606 Z" id="Fill-1" fill="#BFBFBF" mask="url(#mask-2)"></path>
+                    </g>
+                    <text id="￡" font-family="PingFangSC-Medium, PingFang SC" font-size="10" font-weight="400" line-spacing="10" letter-spacing="-0.150000006" fill="#BFBFBF">
+                        <tspan x="5" y="13">￡</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

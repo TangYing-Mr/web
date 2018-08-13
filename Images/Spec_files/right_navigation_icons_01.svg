@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>right_navigation_icons_01</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-1414.000000, -188.000000)" stroke="#FFFFFF" stroke-width="1.3">
+            <g id="Group-30" transform="translate(1411.000000, 189.000000)">
+                <g id="right_navigation_icons_01" transform="translate(4.000000, 0.000000)">
+                    <circle id="Oval-4" cx="7.92119281" cy="5" r="5"></circle>
+                    <path d="M5.52195017e-17,18.3456081 L15.9159377,18.3456081 L15.9159377,15.8035068 L15.9159234,15.8035068 C15.9159234,15.6054565 15.8571142,15.4118663 15.746952,15.2472814 C13.7814779,12.3108153 11.1851502,10.8684158 7.95796887,10.9200828 C4.7608338,10.8795613 2.16604099,12.3212128 0.173590434,15.2450373 L0.17362514,15.245061 C0.0605026468,15.4110627 1.53817551e-16,15.6072872 0,15.8081684 L5.52195017e-17,18.3456081 Z" id="Path-4" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

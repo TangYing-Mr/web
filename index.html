@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="renderer" content="webkit|ie-stand" /> 
+  <meta charset="utf-8" /> 
+  <meta name="keywords" content="东南西北" /> 
+  <meta name="description" content="Site_SEODescription1" /> 
+  <meta name="viewport" content="width=device-width" /> 
+  <meta property="wb:webmaster" content="13b21966c78f011e" /> 
+  <meta property="Generator" content="2.6" /> 
+  <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script> 
+  <title>东南西北</title> 
+  <link href="./Areas/Web/Content/common.css" rel="stylesheet" /> 
+  <link href="./Areas/Web/Content/style.css" rel="stylesheet" /> 
+  <link href="./Areas/Web/Content/main.css" rel="stylesheet" />
+  <!--<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>-->
+  <!--<script src="./Scripts/jquery-1.7.1.min.js"></script>--> 
+  <script src="./Areas/Web/Scripts/web.js"></script> 
+  <script src="./Scripts/CommonJS.js"></script> 
+  <script src="./Areas/Web/Scripts/userInfo.js"></script> 
+  <script src="./Areas/Web/Scripts/home.js"></script> 
+ </head> 
+ <body> 
+  <!--_HeadAndFoot start--> 
+  <!--Header start--> 
+  <script src="./Scripts/jquery.cookie.js"></script> 
+  <script src="./Scripts/CommonJS.js"></script> 
+  <script src="./Scripts/jQuery.mouseDelay.min.js"></script> 
+  <script src="./Scripts/jquery.scrollLoading.min.js"></script> 
+  <script src="./Scripts/jquery.nicescroll.min.js"></script> 
+  <link href="./Areas/Web/Content/WebLoginPlug.css" rel="stylesheet" /> 
+  <link href="./Areas/Web/Content/WebAlertPlug.css" rel="stylesheet" /> 
+  <script src="./Areas/Web/Scripts/jQuery.Web.Alert.js"></script> 
+  <script src="./Areas/Web/Scripts/jQuery.Web.Login.js"></script> 
+  <script src="./Scripts/jquery.artDialog.js"></script> 
+  <script src="./Areas/Web/Scripts/artDialog.iframeTools.js"></script> 
+  <script src="./Areas/Web/Scripts/head.js"></script> 
+  <link href="./Areas/Web/Content/artdilog.css" rel="stylesheet" /> 
+  <script src="./Scripts/bootstrap.autocomplete.js"></script> 
+  <!--_TopInfo start--> 
+  <div class="top" id="head"> 
+   <div class="warp cl"> 
+    <span class="top-link back_sd">您好，欢迎来到 东南西北！</span> 
+    <ul class="quick_list"> 
+     <li> <a href="/Login" class="back">登录</a> </li> 
+     <li> <a href="/Register" class="back">注册</a> </li> 
+     <li class="sitemap dropdown"> <span class="outline"></span> <span class="blank"></span> 
+      <s></s> <a href="/UserCenter" class="back">我的东南西北</a> <b></b> 
+      <div class="dropdown-menu"> 
+       <ol> 
+        <li> <a href="/UserCenter?url=/UserOrder&amp;tar=UserOrder">已买到的商品</a> </li> 
+        <li> <a href="/UserCenter?url=/productConcern&amp;tar=productConcern">我关注的商品</a> </li> 
+        <li> <a href="/UserCenter?url=/shopConcern&amp;tar=shopConcern">我关注的店铺</a> </li> 
+       </ol> 
+      </div>
+     </li> 
+     <li> 
+      <s> 
+      </s> <a target="_blank" href="/cart/cart" class="back">购物车 <em>(<span id="shopping-amount"></span>)</em> </a> </li> 
+     <li class="moblie-qrcode dropdown"> 
+      <s> 
+      </s> <span class="outline"></span> <span class="blank"></span> <a href="javascript:void(0)" class="back">手机端</a> <b> </b> 
+      <div class="dropdown-menu"> 
+       <img src="Images/close_01_13.jpg" width="90" height="90" /> 
+      </div> </li> 
+     <li class="service dropdown"> 
+      <s> 
+      </s> <span class="outline"></span> <span class="blank"></span> <a href="javascript:void(0)" class="back">客户中心</a> <b> </b> 
+      <div class="dropdown-menu"> 
+       <ol> 
+        <li> <a href="/Article/Category">帮助中心</a> </li> 
+        <li> <a href="/UserCenter?url=/OrderRefund&amp;tar=OrderRefund">售后服务</a> </li> 
+        <li> <a href="/UserCenter?url=/OrderComplaint&amp;tar=OrderComplaint">投诉中心</a> </li> 
+       </ol> 
+      </div> </li> 
+    </ul> 
+   </div> 
+  </div> 
+ <!-- <script src="./Areas/Web/Scripts/topInfo.js"></script> -->
+  <!--_TopInfo end--> 
+  <div class="header" id="Q-nav"> 
+   <div class="header_top"> 
+    <div class="img_i"> 
+     <img class="txt" src="Images/dnxbhigh.gif" alt="" width="110px" height="60px" /> 
+    </div> 
+    <div class="header_rig"> 
+     <ul> 
+      <li> <a href="#">首页</a> <span></span> </li> 
+      <li> <a href="#">家居</a> <span></span> </li> 
+      <li> <a href="#">餐厨</a> <span></span> </li> 
+      <li> <a href="#">服装</a> <span></span> </li> 
+      <li> <a href="#">配饰</a> <span></span> </li> 
+      <li> <a href="#">洗护</a> <span></span> </li> 
+      <li> <a href="#">婴童</a> <span></span> </li> 
+      <li> <a href="#">饮食</a> <span></span> </li> 
+      <li> <a href="#">音像</a> <span></span> </li> 
+      <li> <a href="#">手机数码</a> <span></span> </li> 
+      <li class="last_li"> 
+        <input type="search" name="Search" required="" id="ipt1"  placeholder="收索你感兴趣的商品或品牌" onfocus="this.placeholder=''" onblur="this.placeholder='收索你感兴趣的商品或品牌'" x-webkit-speech="" x-webkit-grammar="builtin:search" lang="zh-CN">
+      	<img  src="Areas/Web/images/search.png" width="13" height="13"/> 
+       <ul id="ul1">
+       	
+       </ul> 
+      </li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="right-side"> 
+   <div class="right-side-menu"> 
+    <ul class="menu-top"> 
+     <li data-tag="user"> <i class="user" id="right_userCenter"> 
+       <s> 
+       </s> </i> <span>个人中心</span></li> 
+     <s> 
+     </s> 
+     <li data-tag="cart" arrow="" class="side-cart" id="right_cart"> <i class="cart"> 
+       <s> 
+       </s> </i> <p>购物车</p> <em>0</em></li> 
+     <s> 
+     </s> 
+     <li data-tag="asset" arrow="" id="right_asset"> <i class="asset"> 
+       <s> 
+       </s> </i> <span>资产中心</span> 
+      <div class="side-point">
+       该店铺可领优惠券 
+       <br /> 
+       <a>立即领取</a> 
+      </div> </li> 
+     <li data-tag="at-goods" arrow="" id="right_goods"> <i class="at-goods"> 
+       <s> 
+       </s> </i> <span>关注商品</span></li> 
+     <li data-tag="history" arrow="" id="right_history"> <i class="history"> 
+       <s> 
+       </s> </i> <span>浏览历史</span></li> 
+        <li data-tag="history" arrow="" id="right_history"> <i class="history"> 
+       <s> 
+       </s> </i> <span>客服</span></li> 
+    </ul> 
+    <ul class="menu-bot"> 
+    	<li class="on_on">	
+     	  <div class="weixin" onmouseover="this.className = 'weixin on';" onmouseout="this.className = 'weixin';">
+	      <a href="javascript:;"><img src="Images/right_navigation_icons_07.svg" alt="" /></a>
+           <div class="weixin_nr">
+    	  <div class="arrow"></div>
+        <img src="Images/888.jpg" width="100" height="100" />
+                         关注官方微信
+    </div>
+        </div>
+     </li>
+     <li> <i class="go-top"></i> <span>返回顶部</span></li> 
+    </ul> 
+   </div> 
+   <div class="side-content"> 
+    <div class="side-cart-c"> 
+     <div class="side-bd"> 
+      <input type="hidden" value="2" id="hidAuditStatus" /> 
+      <input type="hidden" value="1" id="hidSaleStatus" /> 
+      <div class="cart-top"> 
+       <label> <input type="checkbox" name="s-checkAll" checked="" />全选</label> 
+       <a href="./cart/cart" title="">查看全部</a>
+      </div> 
+      <div class="cart-list"> 
+       <ul id="side-cart-list"></ul> 
+      </div> 
+     </div> 
+     <div class="side-bt"> 
+      <div class="cart-total"> 
+       <span class="total-money">￥ <em id="s-total-money">0</em></span> 
+       <span class="total-num">已选 <em id="s-total-num">0</em>件</span>
+      </div> 
+      <input type="button" id="toSubmitOrder" value="购物车结算" />
+     </div> 
+    </div> 
+    <div class="side-asset-c"> 
+     <div class="side-hd"> 
+      <a class="side-close" title="关闭">&gt;&gt;</a> 
+      <a href="./UserCenter?url=/userCoupon&amp;tar=userCoupon" target="_blank">资产中心</a>
+     </div> 
+     <div class="side-bd" id="userCouponList"> 
+      <div class="side-asset-total cl"> 
+       <div> 
+        <span id="memberIntegral">0</span> 
+        <p>我的积分</p> 
+       </div> 
+       <div> 
+        <span id="mycouponcount">0</span> 
+        <p>优惠券</p> 
+       </div> 
+      </div> 
+      <div class="side-asset-list" id="myCouponList"> 
+       <p>已领取的优惠券</p> 
+       <ul></ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="side-atgoods-c"> 
+     <div class="side-hd"> 
+      <a class="side-close" title="关闭">&gt;&gt;</a> 
+      <a href="./UserCenter?url=/productConcern&amp;tar=productConcern" target="_blank">关注商品</a>
+     </div> 
+     <div class="side-bd"> 
+      <ul class="side-goods-list cl" id="memberConcern"></ul> 
+     </div> 
+    </div> 
+    <div class="side-history-c"> 
+     <div class="side-hd"> 
+      <a class="side-close" title="关闭">&gt;&gt;</a> 
+      <a href="javascript:void(0)" target="_blank">浏览历史</a>
+     </div> 
+     <div class="side-bd"> 
+      <ul class="side-goods-list cl" id="userBrowsingProducts"></ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--<input type="hidden" id="isLogin" value="false" /> 
+  <script type="text/javascript">var curshopid = couponsUrl = canCouponsUrl = null;</script> 
+  <script type="text/javascript">$(document).ready(function() {
+				loadLoginUserInfo();
+				loadUserCoupons();
+			});</script> 
+  <script src="./Areas/Web/Scripts/headdata.js"></script> -->
+  <!--Header end--> 
+  <!--content start--> 
+   <div class="slide-box"> 
+    <!-- 自动轮播图片--> 
+      <div class="carousel" id="carousel">
+      	<div class="btns">
+			<a href="javascript:;" class="leftBtn"><img src="Images/home_banner_icon-_l.svg"/></a>
+			<a href="javascript:;" class="rightBtn"><img src="Images/home_banner_icon-_rr.svg"/></a>
+		</div>
+		<div class="imageList">
+			<ul>
+				<li class="first"><a href="000"><img src="Images/banner2@1x.jpg" alt="" /></a></li>
+				<li  class="towimage"><a href="111"><img src="Images/home_banner_img_03@1x.jpg" alt="" /></a></li>
+				<li class="thresimage"><a href="222"><img src="Images/banner3@1x.jpg" alt="" /></a></li>
+				<li class="forimage"><a href="333"><img src="Images/banner4@1x.jpg" alt="" /></a></li>
+				<li class="fivemage"><a href="444"><img src="Images/banner@1x.jpg" alt="" /></a></li>
+				<li class="siximage"><a href="333"><img src="Images/banner3@1x.jpg" alt="" /></a></li>
+			</ul>
+		</div>
+		 <div class="circles">
+			<ol>
+				<li class="cur"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ol>
+		 </div>
+	  </div>
+   </div> 
+
+  <div class="content"> 
+   <!--生活橱窗--> 
+   <a name="pingpai"></a>
+   <div class="charless" id="charless"> 
+    <div class="charless_car"> 
+     <div class="burry"> 
+      <p class="arrow"> <img src="Images/home_main_inner_zs_top_01.svg" alt="" /></p> 
+      <p class="inner">品牌制造商 ｜ 直达消费者</p> 
+      <p class="inner_in"> <img src="Images/home_main_inner_zhuangshi_01.svg" alt="" /></p> 
+     </div> 
+     <div class="house lank"> 
+      <ul> 
+       <li> <img src="Images/img-01 copy 9.jpg" alt="" /> <p class="lank"> <img src="Images/lank.png" alt="" /></p> <p class="try">Charles Tyrwhitt Shirts</p> <p class="try_on">在售商品 <span>2983</span>件</p> <p class="come_in"> <a href="">进入品牌</a></p> </li> 
+       <li class="active"> <img src="Images/img-01 copy 2.jpg" alt="" /> <p class="lank_1"> <img src="Images/lank.png" alt="" /></p> <p class="try_1">Charles Tyrwhitt Shirts</p> <p class="try_on_1">在售商品 <span>2983</span>件</p> <p class="come_in_1"> <a href="">进入品牌</a></p> </li> 
+       <li class="active"> <img src="Images/img-01 copy 3.jpg" /> <p class="lank_2"> <img src="Images/lank.png" alt="" /></p> <p class="try_2">Charles Tyrwhitt Shirts</p> <p class="try_on_2">在售商品 <span>2983</span>件</p> <p class="come_in_2"> <a href="">进入品牌</a></p> </li> 
+       <li class="active"> <img src="Images/img-01 copy 2.jpg" alt="" /> <p class="lank_3"> <img src="Images/lank.png" alt="" /></p> <p class="try_3">Charles Tyrwhitt Shirts</p> <p class="try_on_3">在售商品 <span>2983</span>件</p> <p class="come_in_3"> <a href="">进入品牌</a></p> </li> 
+       <li class="active"> <img src="Images/img-01 copy.jpg" alt="" /> <p class="lank_4"> <img src="Images/lank.png" alt="" /></p> <p class="try_4">Charles Tyrwhitt Shirts</p> <p class="try_on_4">在售商品 <span>2983</span>件</p> <p class="come_in_4"> <a href="">进入品牌</a></p> </li> 
+      </ul> 
+     </div> 
+     <div class="marg_sd"> 
+      <a href="">更多品牌</a>
+     </div> 
+    </div> 
+   </div>
+   
+   <!--限时秒杀 | 出口好货评价抢--> 
+   <a name="conprom_c"></a>
+		<div class="hotwords" id="hotwords">
+			<div class="spacer">
+				<div class="happy">
+					<img class="limg" src="Images/home_main_inner_zhuangshi_l.png" alt="" />
+					<span>限时秒杀 | 出口好货评价抢</span>
+					<img class="rimg"  src="Images/home_main_inner_zhuangshi_r.png" alt="" />
+					 <img class="dibimg" src="Images/home_main_inner_zhuangshi_01.svg" alt="" />
+				</div>
+		<!--中部盒子开始-->		
+	    <div class="conprom_c" id="conprom_c">
+		  <div class="promi_con01" id="kv_con01">
+		  	<div class="promi_cm1" id="Bimg01">
+            <img src='Images/img-01 copy 5.jpg' id="kv1_img01" alt='���� I8180C' />
+			</div>
+		  <div class="promi_cl">
+		  	<ul>
+		  		<li class="intudios">
+				    <p class="SPname">INUK时尚潮流民族印花双肩包学院风舒适透气韩版男女潮背包 圣诞红</p>
+				    <p class="SPplun">采用全新抢眼印花设计，体现INUK潮流形象；主袋存储空间充足，配合打理袋，满足出行需要；全衬加空气网垫棉设计的背负系统；织带底端有枫叶图案的反光条</p>
+				    <div id="pinpsb">
+				    	<ul>
+				    		<li><a href="#"><img src="Images/home_hd_icons_00.svg"/><span>英国品牌</span></a></li>
+				    		<li><a href="#"><img src="Images/home_hd_icons_01.svg"/><span>同价同折</span></a></li>
+				    		<li><a href="#"><img src="Images/home_hd_icons_02.svg"/><span>厂家直邮</span></a></li>
+				    	</ul>
+				    </div>
+					<p id="perge">
+						<span id="qian"><span id="myuan">￡</span>795.00</span>
+						<span id="hou"><s>￡1,290.00</s></span>
+					</p>
+					<p class="rmbzh">RMB：<span>￥2865.408</span></p>
+					<a class="last_a" href="#"><img src="Images/home_hd_icons_03.svg"/><span>即将开始</span></a>	
+				</li>
+		  	</ul>		
+		 </div>
+		 <div class="deta">
+			  <div class="shijian">
+				<p>6.18</p>
+				<p>日期</p>
+			 </div>
+		     <div class="zhouri">
+				<p>周日</p>
+		     </div>
+		     <div class="huod">
+			    <p>11:00-12:00</p>
+				<p>活动时间</p>
+			 </div>
+			 <div class="overdata">
+				<p id="divdown1" ></p>
+				<p>距离结束</p>
+			 </div>
+		 </div>
+  
+    </div>
+	<!--1-->	
+    	<!--2-->
+		  <div class="promi_con01" id="kv_con02" style="display:none">
+		  <div class="promi_cm1" id="Bimg02">
+		   <img src='Images/img-01 copy 6.jpg' id="kv2_img01" alt='���� I899 '/>
+		  </div>
+		  <div class="promi_cl">
+			<ul>
+		  		<li class="intudios">
+				    <p class="SPname">INUK时尚潮流民族印花双肩包学院风舒适透气韩版男女潮背包 圣诞红</p>
+				    <p class="SPplun">采用全新抢眼印花设计，体现INUK潮流形象；主袋存储空间充足，配合打理袋，满足出行需要；全衬加空气网垫棉设计的背负系统；织带底端有枫叶图案的反光条</p>
+				    <div id="pinpsb">
+				    	<ul>
+				    		<li><a href="#"><img src="Images/home_hd_icons_00.svg"/><span>英国品牌</span></a></li>
+				    		<li><a href="#"><img src="Images/home_hd_icons_01.svg"/><span>同价同折</span></a></li>
+				    		<li><a href="#"><img src="Images/home_hd_icons_02.svg"/><span>厂家直邮</span></a></li>
+				    	</ul>
+				    </div>
+					<p id="perge">
+						<span id="qian"><span id="myuan">￡</span>795.00</span>
+						<span id="hou"><s>￡1,290.00</s></span>
+					</p>
+					<p class="rmbzh">RMB：<span>￥2865.408</span></p>
+					<a class="last_a" href="#"><img src="Images/home_hd_icons_03.svg"/><span>即将开始</span></a>	
+				</li>
+		  	</ul>
+		  </div>
+		    <div class="deta">
+			  <div class="shijian">
+				<p>7.18</p>
+				<p>日期</p>
+			 </div>
+		     <div class="zhouri">
+				<p>周日</p>
+		     </div>
+		     <div class="huod">
+			    <p>12:00-12:00</p>
+				<p>活动时间</p>
+			 </div>
+			 <div class="overdata">
+				<p id="divdown2"></p>
+				<p>距离结束</p>
+			 </div>
+		  </div>
+
+    </div>
+	 <div class="promi_con01" id="kv_con03" style="display:none">
+      	<div class="promi_cm1" id="Bimg03">
+		  <img src='Images/img-01 copy 7.jpg' id="kv3_img01" alt='' />
+		</div>
+	 <div class="promi_cl">
+			<ul>
+		  		<li class="intudios">
+				    <p class="SPname">INUK时尚潮流民族印花双肩包学院风舒适透气韩版男女潮背包 圣诞红</p>
+				    <p class="SPplun">采用全新抢眼印花设计，体现INUK潮流形象；主袋存储空间充足，配合打理袋，满足出行需要；全衬加空气网垫棉设计的背负系统；织带底端有枫叶图案的反光条</p>
+				    <div id="pinpsb">
+				    	<ul>
+				    		<li><a href="#"><img src="Images/home_hd_icons_00.svg"/><span>英国品牌</span></a></li>
+				    		<li><a href="#"><img src="Images/home_hd_icons_01.svg"/><span>同价同折</span></a></li>
+				    		<li><a href="#"><img src="Images/home_hd_icons_02.svg"/><span>厂家直邮</span></a></li>
+				    	</ul>
+				    </div>
+					<p id="perge">
+						<span id="qian"><span id="myuan">￡</span>795.00</span>
+						<span id="hou"><s>￡1,290.00</s></span>
+					</p>
+					<p class="rmbzh">RMB：<span>￥2865.408</span></p>
+					<a class="last_a" href="#"><img src="Images/home_hd_icons_03.svg"/><span>即将开始</span></a>	
+				</li>
+		  	</ul>
+		  </div>
+		  <div class="deta">
+			  <div class="shijian">
+				<p>11.18</p>
+				<p>日期</p>
+			 </div>
+		     <div class="zhouri">
+				<p>周日</p>
+		     </div>
+		     <div class="huod">
+			    <p>9:00-12:00</p>
+				<p>活动时间</p>
+			 </div>
+			 <div class="overdata">
+				<p id="divdown3"></p>
+				<p >距离结束</p>
+			 </div>
+		  </div>
+		
+    </div>
+	<!--3-->
+		
+    <!--left-->	
+	 <div class="menu100">
+		<ul class="promi_con02">
+	      
+	      <li><img src='Images/img-01 copy 5.jpg' alt='' id="text01" onmouseover="MoveKv('1');omni_index('SGH-I8180C')" /></li>
+	      
+	      <li><img src='Images/img-01 copy 6.jpg' alt='' id="text01" onmouseover="MoveKv('2');omni_index('SCH-I899')" /></li>
+	      
+	     <li><img src='Images/img-01 copy 7.jpg' alt='' id="text01" onmouseover="MoveKv('3');omni_index('SGH-I6330C')" /></li>	      
+	
+		</ul>
+	</div>
+	<!--中部盒子结束-->
+			</div>
+		</div>
+	</div>
+	<!--更多新品部分-->
+	<a name="herscity"></a>
+		<div class="keddo" id="keddo">
+			<ul class="herscity">
+				<li><img class="leimg" src="Images/home_main_inner_zs_xp_l.svg"/></li>
+				<li><span>新品推荐   | 出口生产商直供</span></li>
+				<li><img class="rgimg" src="Images/home_main_inner_zs_xp_r.svg"/></li>
+			</ul>
+		<div class="single-goods">
+		<div class="container">
+			<div class="s-lg-title">
+				<div class="title-more">
+					<a href="javascript:" class="s-prev btn-default"><img src="Images/home_banner_icon-_l.svg"/></a>
+					<a href="javascript:" class="s-next"><img src="Images/home_banner_icon-_rr.svg"/></a>
+				</div>
+			</div>
+			<div class="sgoods-content">
+				<ul class="sgoods-list clearfix" style="margin-left: 0; margin-left 0.5s ease">
+					<li class="sgoods-item">
+						<div class="sgoods-thumb">
+							<a href=""><img src="Images/img-01 copy 6.jpg"></a>
+							<a href="" class="sbiaoimg"><img src="Images/home_hd_icons_00.svg"/></a>
+						</div>
+						<div class="goods-title">
+							<a href="" class="title">INUK青春原创双肩包大容量学院风书包男女休闲旅行时尚背包 </a>
+						</div>
+						<p class="goods-info">
+							<span class="ifo"><span id="preiof">￡</span>78.00</span>
+							<s class="deletof">￡78.00</s>
+						</p>
+						<p class="goods-price">
+							<span id="pries">RMB:￥805</span>
+						</p>
+					</li>
+					<li class="sgoods-item">
+						<div class="sgoods-thumb">
+							<a href=""><img src="Images/img-01 copy 5.jpg"></a>
+						</div>
+						<div class="goods-title">
+							<a href="" class="title">INUK青春原创双肩包大容量学院风书包男女休闲旅行时尚背包 </a>
+						</div>
+						<p class="goods-info">
+							<span class="ifo"><span id="preiof">￡</span>78.00</span>
+							<s class="deletof">￡78.00</s>
+						</p>
+						<p class="goods-price">
+							<span id="pries">RMB:￥805</span>
+						</p>
+					</li><li class="sgoods-item">
+						<div class="sgoods-thumb">
+							<a href=""><img src="Images/img-01 copy 6.jpg"></a>
+						</div>
+						<div class="goods-title">
+							<a href="" class="title">INUK青春原创双肩包大容量学院风书包男女休闲旅行时尚背包 </a>
+						</div>
+						<p class="goods-info">
+							<span class="ifo"><span id="preiof">￡</span>78.00</span>
+							<s class="deletof">￡78.00</s>
+						</p>
+						<p class="goods-price">
+							<span id="pries">RMB:￥805</span>
+						</p>
+					</li><li class="sgoods-item">
+						<div class="sgoods-thumb">
+							<a href=""><img src="Images/img-01 copy 7.jpg"></a>
+						</div>
+						<div class="goods-title">
+							<a href="" class="title">INUK青春原创双肩包大容量学院风书包男女休闲旅行时尚背包 </a>
+						</div>
+						<p class="goods-info">
+							<span class="ifo"><span id="preiof">￡</span>78.00</span>
+							<s class="deletof">￡78.00</s>
+						</p>
+						<p class="goods-price">
+							<span id="pries">RMB:￥805</span>
+						</p>
+					</li><li class="sgoods-item">
+						<div class="sgoods-thumb">
+							<a href=""><img src="Images/img-01 copy 8.jpg"></a>
+						</div>
+						<div class="goods-title">
+							<a href="" class="title">INUK青春原创双肩包大容量学院风书包男女休闲旅行时尚背包 </a>
+						</div>
+						<p class="goods-info">
+							<span class="ifo"><span id="preiof">￡</span>78.00</span>
+							<s class="deletof">￡78.00</s>
+						</p>
+						<p class="goods-price">
+							<span id="pries">RMB:￥805</span>
+						</p>
+					</li><li class="sgoods-item">
+						<div class="sgoods-thumb">
+							<a href=""><img src="Images/img-01 copy 5.jpg"></a>
+						</div>
+						<div class="goods-title">
+							<a href="" class="title">INUK青春原创双肩包大容量学院风书包男女休闲旅行时尚背包 </a>
+						</div>
+						<p class="goods-info">
+							<span class="ifo"><span id="preiof">￡</span>78.00</span>
+							<s class="deletof">￡78.00</s>
+						</p>
+						<p class="goods-price">
+							<span id="pries">RMB:￥805</span>
+						</p>
+					</li><li class="sgoods-item">
+						<div class="sgoods-thumb">
+							<a href=""><img src="Images/img-01 copy 6.jpg"></a>
+						</div>
+						<div class="goods-title">
+							<a href="" class="title">INUK青春原创双肩包大容量学院风书包男女休闲旅行时尚背包 </a>
+						</div>
+					  <p class="goods-info">
+							<span class="ifo"><span id="preiof">￡</span>78.00</span>
+							<s class="deletof">￡78.00</s>
+						</p>
+						<p class="goods-price">
+							<span id="pries">RMB:￥805</span>
+						</p>
+					</li><li class="sgoods-item">
+						<div class="sgoods-thumb">
+							<a href=""><img src="Images/img-01 copy 7.jpg"></a>
+						</div>
+						<div class="goods-title">
+							<a href="" class="title">INUK青春原创双肩包大容量学院风书包男女休闲旅行时尚背包 </a>
+						</div>
+						<p class="goods-info">
+							<span class="ifo"><span id="preiof">￡</span>78.00</span>
+							<s class="deletof">￡78.00</s>
+						</p>
+						<p class="goods-price">
+							<span id="pries">RMB:￥805</span>
+						</p>
+					</li><li class="sgoods-item">
+						<div class="sgoods-thumb">
+							<a href=""><img src="Images/img-01 copy 8.jpg"></a>
+						</div>
+						<div class="goods-title">
+							<a href="" class="title">INUK青春原创双肩包大容量学院风书包男女休闲旅行时尚背包 </a>
+						</div>
+						<p class="goods-info">
+							<span class="ifo"><span id="preiof">￡</span>78.00</span>
+							<s class="deletof">￡78.00</s>
+						</p>
+						<p class="goods-price">
+							<span id="pries">RMB:￥805</span>
+						</p>
+					</li><li class="sgoods-item">
+						<div class="sgoods-thumb">
+							<a href=""><img src="Images/img-01 copy 5.jpg"></a>
+						</div>
+						<div class="goods-title">
+							<a href="" class="title">INUK青春原创双肩包大容量学院风书包男女休闲旅行时尚背包 </a>
+						</div>
+						<p class="goods-info">
+							<span class="ifo"><span id="preiof">￡</span>78.00</span>
+							<s class="deletof">￡78.00</s>
+						</p>
+						<p class="goods-price">
+							<span id="pries">RMB:￥805</span>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			<div class="pull_se pull_ds">
+				<a href="">更多新品</a>
+			</div>
+		</div>	
+			<!--按类别选购 | 发现心仪的物品-->
+			<a name="tese"></a>
+	  <div class="tesbox" id="tesbox">
+		<div class="tesheBox">
+			<div class="titena">
+			    <img id="lefimg" src="Images/home_main_inner_zs_ts_l.svg"/>
+				<p id="bgtite">特色产品 I 生活应该更美</p>
+			    <img id="rigimg" src="Images/home_main_inner_zs_ts_r.svg"/>
+			</div>
+			<div class="Bigimg">
+			</div>
+			<div class="jiugebox" id="jiugebox">
+			</div>		
+		</div>
+	  </div>
+	  <!--按类别选购 | 发现心仪的物品结束-->	  
+  </div>
+  <!--content结束------------------------------------------------------------------>	
+  <!--底部----------------------------------------------------------------------------->
+<div class="fire">
+	<div class="seven">
+		<div class="topreg">
+			<ul class="ultop">
+				<li class="reg">
+					<img src="Images/home-icon-07.png" alt="" />
+					<span>正品保证</span>
+					<div class="nan"><a href="">100%正品</a></div>
+				</li>
+				<li class="reg">
+					<img src="Images/home-icon-08.png" alt="" />
+					<span>7*24客服</span>
+					<div class="nan"><a href="">全年全天候服务</a></div>
+				</li>
+				<li class="reg">
+					<img src="Images/home-icon-09.png" alt="" />
+					<span>英有尽有</span>
+					<div class="nan"><a href="">足不出户，与英伦同步</a></div>
+				</li>
+				<li class="reg">
+					<img src="Images/home-icon-10.png" alt="" />
+					<span>低价代购</span>
+					<div class="nan"><a href="">多买多利</a></div>
+				</li>
+				<li class="reg">
+					<img src="Images/home-icon-11.png" alt="" />
+					<span>帮助中心</span>
+					<div class="nan"><a href="">您的购物指南</a></div>
+				</li>
+			</ul>
+		  </div>
+       <div class="dibu">
+				<div class="string">
+					  <ul>
+					    <li class="dl_dd">
+						<dl>
+							<dt>客服电话</dt>
+							<p>0851-86850950</p>
+							<div>9:00-10:00</d>
+						</dl>
+					</li>
+					<li class="clear_id">
+						<div class="cler_ll">
+							<dl>
+								<dt><a href="">购物指南</a></dt>
+								<dd>购物流程图</dd>
+								<dd>会员介绍</dd>
+								<dd>常见问题</dd>
+								<dd>联系客服</dd>
+						    </dl>
+						</div>
+					</li>
+					<li class="clear_id">
+						<div class="cler_ll">
+						<dl>
+							<dt>店主之家</dt>
+							<dd>如何申请开店</dd>
+							<dd>查看售出商品</dd>
+							<dd>商城商品推荐</dd>
+							<dd>如何管理店铺</dd>
+						</dl>
+						</div>
+					</li>
+					<li class="clear_id">
+						<div class="cler_ll">
+						<dl>
+							<dt>支付方式</dt>
+							<dd>公司转账</dd>
+							<dd>在线支付</dd>
+							<dd>邮局汇款</dd>
+							<dd>如何注册支付宝</dd>
+						</dl>
+						</div>
+					</li>
+					<li class="clear_id">
+						<div class="cler_ll">
+						<dl>
+							<dt>守候服务</dt>
+							<dd>退换货流程</dd>
+							<dd>退款申请</dd>
+							<dd>退换货政策</dd>
+							<dd>返修/退换货</dd>
+						</dl>
+						</div>
+					</li>
+					<li class="clear_id">
+						<div class="cler_ll">
+						<dl>
+							<dt>关于我们</dt>
+							<dd>联系我们</dd>
+							<dd>合作及洽谈</dd>
+							<dd>关于东南西北</dd>
+							<dd>CEO邮箱</dd>
+						</dl>
+						</div>
+					</li>
+					<li class="app">
+						<img src="Areas/Web/Images/rgift-weixin.jpg" width="100" height="100" alt="" />
+						<p>扫描下载APP</p>
+					</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!--最底部-->
+		<div class="footer">
+			<div class="white">
+				<ul>
+					<li><a href="">英国邮政</a></li>
+					<li><a href="">支付担保</a></li>
+					<li><a href="">信用卡安全</a></li>
+					<li><a href="">全球物流</a></li>
+					<li><a href="">邮政联盟</a></li>
+				</ul>
+			</div>
+			<div class="center">
+				<ul>
+				     <li class="ie"><a href="">网站首页</a></li>
+				     <li><a href="">会员中心</a></li>
+				     <li><a href="">合作伙伴</a></li>
+				     <li><a href="">关于我们</a></li>
+				     <li><a href="">联系我们</a></li>
+				     <li><a href="">广告合作</a></li>
+				</ul>
+			</div>
+		</div>
+ </div>
+<!-- 浮动框------------------------------------------>
+ <div id="float" class="pic_soll huodong">
+		<ul>
+	        <li><a href="#pingpai"><img src="Images/ico-05.png"/></a></li>
+		    <li><a href="#conprom_c"><img src="Images/ico-06.png"/></a></li>
+			<li><a href="#herscity"><img src="Images/ico-07.png"/></a></li>
+			<li><a href="#tese"><img src="Images/ico-08.png"/></a></li>
+	  </ul>
+</div>
+ </body>
+</html>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<!--<script type="text/javascript" src="./Areas/Web/Scripts/jquery-1.12.3.min.js"></script>-->
+	<script type="text/javascript" src="./Areas/Web/Scripts/huxi.js"></script>
+	<script type="text/javascript">
+		new Huxi({
+			"ID" 			: 		"carousel", 
+			"autoPlay"		: 		3000,
+			"animateTime"	: 		500
+		});
+		var carousel = document.getElementById("carousel");
+		var btns =document.getElementsByClassName("btns")[0];
+//		console.log(btns);
+		btns.style.display = "none";
+		carousel.onmouseover = function  () {
+			btns.style.display = "block";
+		}
+			carousel.onmouseout = function  () {
+			btns.style.display = "none";
+		}
+		
+	</script>
+ <!--<script>(function() {
+	var data = null;
+	if (data) {
+		var callback;
+			if (data.goBack == true) callback = function() {
+				history.go( - 1);
+			};
+		var fun;
+		if (data.type == -1) fun = 'errorTips';
+		else if (data.type == 0) fun = 'alert';
+		else if (data.type == 1) fun = 'alertTips';
+		else if (data.type == 2) fun = 'succeedTips';
+		if (fun) $.dialog[fun](data.message, callback, data.time);
+		}
+	})();
+</script> -->
+<script src="./Areas/Web/Scripts/main.js"></script>
+<!--<script src="./Areas/Web/Scripts/my.js"></script>--> 
+ <script>
+  // 顶部导航栏
+   var nav = document.getElementById("Q-nav");
+   var navTop = nav.offsetTop;  // 得到导航栏距离顶部的距离  168
+// console.log(navTop);
+  var charless = document.getElementById("charless");
+  var charlessTop = charless.offsetTop;
+//  console.log(charlessTop); 
+  var hotwords = document.getElementById("hotwords");
+  var hotwordsTop = hotwords.offsetTop;
+// console.log(hotwordsTop);
+   var keddo = document.getElementById("keddo");
+  var keddoTop = keddo.offsetTop;
+//console.log(keddoTop);
+  var tesbox = document.getElementById("tesbox");
+  var tesboxTop = tesbox.offsetTop;
+//console.log(tesboxTop);
+ window.onload = function() {	
+  var oDive = document.getElementById("float").children;	
+   var huodlist = oDive[0].children;  
+			
+		var oDiv = document.getElementById("float");
+//		console.log(float);
+	    H = 0;
+	    Y = oDiv
+	    while (Y) {H += Y.offsetTop; Y = Y.offsetParent;
+	}
+ window.onscroll = function() {
+       // console.log(nav.offsetTop);
+        if(scroll().top >= navTop)
+        {
+            //alert("到位置了");
+            nav.className = "fixed header";
+        }
+        else
+        {
+            nav.className = "header";
+        }
+        if(scroll().top >= charlessTop+400)
+        {
+            //alert("到位置了");
+            oDiv.className = "pictnone";
+        }
+        else
+        {
+            oDiv.className = "pic_soll";
+        }
+         
+     if(scroll().top >= hotwordsTop )
+        {
+            //alert("到位置了");
+            huodlist[1].children[0].children[0].src = 'Images/ico-02.png';
+            huodlist[0].children[0].children[0].src = 'Images/ico-05.png';
+             
+        }
+        else
+        {
+           huodlist[0].children[0].children[0].src = 'Images/ico-01.png'; 
+           huodlist[1].children[0].children[0].src = 'Images/ico-06.png';
+        }
+        
+     if(scroll().top >= keddoTop)
+        {
+            //alert("到位置了");
+            huodlist[2].children[0].children[0].src = 'Images/ico-03.png';
+            huodlist[1].children[0].children[0].src = 'Images/ico-06.png';
+            huodlist[0].children[0].children[0].src = 'Images/ico-05.png';
+            
+        }
+        else if(scroll().top >= hotwordsTop)
+        {
+           huodlist[1].children[0].children[0].src = 'Images/ico-02.png'; 
+           huodlist[2].children[0].children[0].src = 'Images/ico-07.png';
+        } 
+        
+     if(scroll().top >= tesboxTop)
+        {
+            //alert("到位置了");
+            huodlist[3].children[0].children[0].src = 'Images/ico-04.png';
+            huodlist[1].children[0].children[0].src = 'Images/ico-06.png';
+            huodlist[0].children[0].children[0].src = 'Images/ico-05.png';
+            huodlist[2].children[0].children[0].src = 'Images/ico-07.png';
+        }
+        else if(scroll().top >= keddoTop)
+        {
+           huodlist[3].children[0].children[0].src = 'Images/ico-08.png';
+        } 
+        
+    for (var i = 0; i < huodlist.length; i++) {
+	    huodlist[i].index = i+1;
+	    huodlist[i].addEventListener('click',function(){
+		for (var i = 0; i < huodlist.length; i++) {
+			huodlist[i].children[0].children[0].src = 'Images/ico-0'+(i+5)+'.png';
+		}
+		this.children[0].children[0].src = 'Images/ico-0'+this.index+'.png';
+	 });
+   }
+   
+     var s = document.body.scrollTop || document.documentElement.scrollTop;
+	   if(s>H) {
+	            oDiv.style = "position:fixed;top:164px;"
+	        }
+	
+	else {
+		oDiv.style = "";
+	}
+	
+    }    
+  };
+</script>
+<script language="javascript" type="text/javascript">
+            var i=1;
+			var j=0;
+			var number = 1;
+
+			var imgsum = 8;		  
+
+			function MoveKv(num)
+			{
+				number = num;
+				i = 1;
+			//document.getElementById("faqk"+number).innerHTML;
+
+			var objnum = document.getElementById("Bimg0"+num);
+		    var imgnum = objnum.getElementsByTagName('img');
+		    imgsum = imgnum.length;
+        	for(j=1;j<5;j++) 
+			{
+			if (j==num)
+				{
+				document.getElementById("kv_con0"+j).style.display="block";
+				}
+			else
+				{
+				document.getElementById("kv_con0"+j).style.display="none";
+				}
+			}
+		}			
+</script>
+<script language="javascript" type="text/javascript"> 
+var interval = 1000; 
+function ShowCountDown(year,month,day,divname) 
+{ 
+var now = new Date(); 
+var endDate = new Date(year, month-1, day); 
+var leftTime=endDate.getTime()-now.getTime(); 
+var leftsecond = parseInt(leftTime/1000); 
+var day1=parseInt(leftsecond/(24*60*60*6)); 
+var day1=Math.floor(leftsecond/(60*60*24)); 
+var hour=Math.floor((leftsecond-day1*24*60*60)/3600); 
+var minute=Math.floor((leftsecond-day1*24*60*60-hour*3600)/60); 
+var second=Math.floor(leftsecond-day1*24*60*60-hour*3600-minute*60); 
+var cc = document.getElementById(divname); 
+cc.innerHTML =hour+":"+minute+":"+second; 
+}
+window.setInterval(function(){ShowCountDown(2017,9,5,'divdown1');}, interval); 
+window.setInterval(function(){ShowCountDown(2017,11,5,'divdown2');}, interval); 
+window.setInterval(function(){ShowCountDown(2017,10,5,'divdown3');}, interval); 
+
+	//按类别选购 | 发现心仪的物品......................
+	var dataArry = [];
+        function fun(date){
+         dataArry = date.data.list;
+         creatCell(dataArry);
+        }
+//       console.log(dataArry);
+        var jiugebox = document.getElementById("jiugebox");
+//      console.log(jiugebox);
+        var Bigimg = document.getElementsByClassName("Bigimg")[0];
+     	function creatCell(dataArry){  
+     	//	创建bgimg
+            var bgimg=document.createElement("img");
+            bgimg.className="bgimg";
+             bgimg.src =  dataArry[0].m_create_img;
+           Bigimg.appendChild(bgimg);
+           
+  	       jiugebox.innerHTML = "";
+     	 for (var i = 0; i < dataArry.length; i++) {
+     		//创建九个div盒子
+     		var _div=document.createElement("div"); 
+     		_div.className="spbox";    		
+             jiugebox.appendChild(_div);
+             _div.style.float = "left";
+              //	创建imgbox
+            var imgbox=document.createElement("div");
+            imgbox.className="imgbox";
+           _div.appendChild(imgbox);
+            //	创建img
+            var subimg=document.createElement("img");
+            subimg.className="subimg";
+             subimg.src =  dataArry[i].m_image_url;
+           imgbox.appendChild(subimg);
+         
+
+      //	创建ul
+           var subUl=document.createElement("ul");
+         subUl.className="botmtite";
+       _div.appendChild(subUl);
+
+//	创建大标题
+        var bigtite=document.createElement("li");
+           bigtite.className="spname";
+          subUl.appendChild(bigtite);
+           bigtite.innerHTML =  dataArry[i].m_title;
+
+//	创建小标题
+         var mintite=document.createElement("li");
+          mintite.className="monys";
+          subUl.appendChild(mintite); 
+          
+           var span_m=document.createElement("span_m");
+          span_m.className="span_m";
+          mintite.appendChild(span_m);
+          span_m.innerHTML =  dataArry[i].m_summs;
+   //	创建span_a
+         var span_a=document.createElement("span");
+          span_a.className="span_a";
+          mintite.appendChild(span_a);
+          span_a.innerHTML =  dataArry[i].m_summary;
+          
+          
+    //	创建span_b
+         var span_b=document.createElement("s");
+          span_b.className="span_b";
+          mintite.appendChild(span_b);
+          span_b.innerHTML =  dataArry[i].m_summarr; 
+          
+//	创建Rmb
+        var Rmb=document.createElement("li");
+        Rmb.className="Rmb";
+        subUl.appendChild(Rmb);      
+  //	创建a标签
+        var bnta=document.createElement("a");
+        bnta.className="bnta";
+        Rmb.appendChild(bnta);
+       bnta.innerHTML = dataArry[i].bnta;
+        if (bnta.innerHTML = dataArry[i].bnta) {
+       	bnta.style.display="block";
+       } else{
+       	bnta.style.display="none";
+       }
+       //	创建Rmb
+        var moyi=document.createElement("span");
+        moyi.className="moyi";
+        Rmb.appendChild(moyi);
+        moyi.innerHTML = dataArry[i].hotcount;
+   };
+}
+</script>
+<script>
+function show(json){
+	// console.log(json.s);
+	
+	//输出到页面中
+	var oUl=document.getElementById('ul1');
+	//json.s	是数组，就有长度
+	oUl.style.display='block';
+	if(json.s.length==0){
+		oUl.style.display='none';	
+	}else{
+		oUl.innerHTML='';
+		for(var i=0;i<json.s.length;i++){
+			var oLi=document.createElement('li');
+			oLi.innerHTML='<a href="https://www.baidu.com/s?ie=utf-8&wd='+json.s[i]+'">'+json.s[i]+'</a>';
+			 //下拉带有链接,点击链接进行搜索
+			oUl.appendChild(oLi);
+		}	
+	}
+}
+</script>
+<script>
+	var oIpt=document.getElementById('ipt1');
+	
+	oIpt.onkeyup=function(){
+		var oScript=document.createElement('script')
+		oScript.src='https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd='+oIpt.value+'&cb=show';	
+		document.getElementsByTagName('head')[0].appendChild(oScript); //script是一次性的 DOM对script就解析一次 解决：onkeyup时，就创建script标签，每up一次，创建并添加到head一次
+	};	
+</script>
+<script type="text/javascript" src="baijia0.json"></script>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>right_navigation_icons_02</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-1411.000000, -240.000000)">
+            <g id="Group-30" transform="translate(1411.000000, 189.000000)">
+                <g id="right_navigation_icons_02" transform="translate(1.000000, 52.000000)">
+                    <path d="M5.9708985,1.86039113 L18.5025794,1.86039113 L18.5025794,1.86035989 C19.0548814,1.86035989 19.5026106,2.30808913 19.5026106,2.86039113 C19.5026106,2.90825411 19.4991744,2.95605534 19.4923286,3.0034262 C19.2238446,4.86123469 18.9755869,6.27728679 18.7475556,7.25158249 C18.5968459,7.89551035 18.418136,8.50385835 18.2114259,9.07662649 L18.2114445,9.07663322 C17.9253436,9.86938324 17.172986,10.3977142 16.3301893,10.3977142 L7.43772647,10.3977142" id="Path-3" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round"></path>
+                    <circle id="Oval-2" fill="#FFFFFF" cx="6.47058824" cy="17.0588235" r="1.17647059"></circle>
+                    <circle id="Oval-2-Copy" fill="#FFFFFF" cx="16.4705882" cy="17.0588235" r="1.17647059"></circle>
+                    <path d="M18.4395007,13.7281246 L7.38877184,13.7281246 L7.38877184,13.7281246 C6.43300671,13.7281246 5.61081267,13.0518875 5.42636724,12.1140886 L3.39484663,1.78497479 L3.39484663,1.78497479 C3.21040119,0.847175835 2.38820716,0.170938724 1.43244202,0.170938724 L0.559847532,0.170938724" id="Path-2" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

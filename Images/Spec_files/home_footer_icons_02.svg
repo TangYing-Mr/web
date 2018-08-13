@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>home_footer_icons_02</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-369.000000, -3983.000000)">
+            <g id="Group-13" transform="translate(0.000000, 3945.000000)">
+                <g id="home_footer_icons_02" transform="translate(368.000000, 37.000000)">
+                    <rect id="Rectangle-21" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="28" height="28"></rect>
+                    <g id="Group" transform="translate(2.000000, 2.000000)" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round">
+                        <path d="M22.6548144,14.3076566 C22.8802738,13.4090633 23,12.4685134 23,11.5 C23,5.14872538 17.8512746,0 11.5,0 C5.14872538,0 0,5.14872538 0,11.5 C0,17.8512746 5.14872538,23 11.5,23 L11.5,23 C14.921505,23 17.9940181,21.5057877 20.1005957,19.1343065" id="Oval"></path>
+                        <polyline id="Path-2" stroke-linejoin="round" points="22.6462445 14.3592256 11.4635837 14.3592256 16.4214802 6.46195576 17.5802805 6.46195576 17.5802805 16.5710611"></polyline>
+                        <path d="M4.69918501,7.40141278 C7.83521193,6.28801735 9.73889531,6.80999059 10.4102352,8.96733251 C10.6940356,10.9280209 8.92292942,12.781494 5.09691653,14.5277519 L5.09691653,16.3983612 L10.294294,16.3983612" id="Path-3" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

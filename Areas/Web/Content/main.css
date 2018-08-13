@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 313968 */
+  src: url('https://at.alicdn.com/t/font_ly12yy1nf622zkt9.eot');
+  src: url('https://at.alicdn.com/t/font_ly12yy1nf622zkt9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_ly12yy1nf622zkt9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_ly12yy1nf622zkt9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_ly12yy1nf622zkt9.svg#iconfont') format('svg');
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+a {
+	color: #757575;
+    text-decoration: none;
+}
+input:focus {
+	outline: none;
+}
+
+.container {
+	position: relative;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* 小米明星单品 */
+.single-goods {
+	margin-top: 20px;
+}
+	.s-lg-title {
+		width: 1203px;
+		height: 40px;
+		position: absolute;
+		top: 45%;
+		left: -15px;
+		z-index: 9999;
+	}
+	.sgoods-content a:hover{
+		text-decoration: none;
+	}
+		.title-more {
+			width: 100%;
+			vertical-align:bottom;
+		}
+			.title-more a {
+				display: inline-block;
+				width: 40px;
+				height: 40px;
+				line-height: 40px;
+				color: #b0b0b0;
+				text-align: center;
+				margin-left: -5px;
+			}
+			.btn-default {
+				float: left;
+				color: #ccc;
+			}
+			.s-next{
+				float: right;
+			}
+	.sgoods-content {
+		margin-bottom: 40px;
+		width: 1170px;
+		overflow: hidden;
+	}
+		.sgoods-list {
+			width: 2342px;
+		}
+			.sgoods-item {
+				float: left;
+				text-align: center;
+				margin-right: 15px;
+				width: 220px;
+				height: 320px;
+				background: #fafafa;
+				border: 1px solid #EEEEEE;
+			}
+			.sgoods-item .goods-title {
+				width: 200px;
+				height: 34px;
+				margin: 5px auto;
+				font-size: 12px;
+       color: #333333;
+       margin-bottom: 10px;
+       letter-spacing: -0.23px;
+			}
+			.sgoods-item:nth-child(5n) {
+				margin-right: 0;
+			}
+				.sgoods-thumb{
+						width: 220px;
+	         height: 220px;
+	        overflow: hidden;
+				}
+				.sgoods-thumb img {
+					width: 220px;
+					height: 220px;
+					transition: transform 1.6s;
+				}
+			.sgoods-item:hover img {
+    transform: scale(1.05);
+	}
+	/*.sgoods-thumb .sbiaoimg{
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		border: 1px solid red;
+		z-index: 1100;
+	}*/
+/* 产品信息统一信息 */
+
+.title {
+	float: left;
+	color: #333333;
+	text-align: left;
+	
+}
+.goods-info {
+	 width: 200px;
+   margin: 0 auto;
+	 margin-bottom: 10px;
+}
+.ifo{
+	float: left;
+	font-size: 14px;
+  color: #CF132B;
+}
+#preiof{
+	font-size: 10px;
+}
+.deletof{
+	float: right;
+	font-size: 10px;
+ color: #999999;
+ letter-spacing: -0.15px;
+}
+p.goods-price{
+	clear: both;
+	width: 200px;
+	height: 20px;
+	margin: 0 auto;
+}
+p.goods-price #pries{
+	float: left;
+	display: block;
+	text-align: left;
+	width: 78px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 11px;
+  color: #CF132B;
+  background: #FDF5F6;
+  border-radius: 4px;
+  letter-spacing: -0.15px;
+  border: 1px solid #CF132B;
+}
+.page-main .item-active {
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+.goods-item {
+	float: left;
+	background: #fff;
+	width: 233px;
+	transition: all .2s;
+}
+
+	
+
+
+
+
+
+
